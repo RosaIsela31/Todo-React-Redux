@@ -4,9 +4,7 @@ import Page from './page';
 class Results extends Component {
   render(){
       return (
-        <Fragment>
-            <Page />
-        </Fragment>
+         <Page />
       )
     };
   }

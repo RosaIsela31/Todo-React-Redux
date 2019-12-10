@@ -9,7 +9,6 @@ const reducer = combineReducers (
         results,
         suggestions,
         currentItem
-        
     }
 );
 
