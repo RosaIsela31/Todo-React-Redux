@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RosaIsela31/Todo-React-Redux/static/css/main.61bb14ef.chunk.css",
+    "main.js": "/RosaIsela31/Todo-React-Redux/static/js/main.962930ed.chunk.js",
+    "main.js.map": "/RosaIsela31/Todo-React-Redux/static/js/main.962930ed.chunk.js.map",
+    "runtime-main.js": "/RosaIsela31/Todo-React-Redux/static/js/runtime-main.84457175.js",
+    "runtime-main.js.map": "/RosaIsela31/Todo-React-Redux/static/js/runtime-main.84457175.js.map",
+    "static/js/2.f995c9d7.chunk.js": "/RosaIsela31/Todo-React-Redux/static/js/2.f995c9d7.chunk.js",
+    "static/js/2.f995c9d7.chunk.js.map": "/RosaIsela31/Todo-React-Redux/static/js/2.f995c9d7.chunk.js.map",
+    "index.html": "/RosaIsela31/Todo-React-Redux/index.html",
+    "precache-manifest.ffca9b252e49231e2c5218e288c5f8c5.js": "/RosaIsela31/Todo-React-Redux/precache-manifest.ffca9b252e49231e2c5218e288c5f8c5.js",
+    "service-worker.js": "/RosaIsela31/Todo-React-Redux/service-worker.js",
+    "static/css/main.61bb14ef.chunk.css.map": "/RosaIsela31/Todo-React-Redux/static/css/main.61bb14ef.chunk.css.map",
+    "static/js/2.f995c9d7.chunk.js.LICENSE": "/RosaIsela31/Todo-React-Redux/static/js/2.f995c9d7.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84457175.js",
+    "static/js/2.f995c9d7.chunk.js",
+    "static/css/main.61bb14ef.chunk.css",
+    "static/js/main.962930ed.chunk.js"
+  ]
+}
