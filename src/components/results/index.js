@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import Page from './page';
 
 class Results extends Component {
   render(){
-      const { suggestions } = this.props; 
-      console.log(suggestions);
+      const { results } = this.props; 
       
       return (
-         <Page suggestions={suggestions} />
+         <Page 
+            results={results} 
+            goTo={(path) => {
+                this.props.history.push(path);
+            }}
+
+         />
       )
     };
   }
@@ -16,14 +22,16 @@ class Results extends Component {
 
 const mapStateToProps = (state) => { 
     return{
-        suggestions: state.suggestions
+        results: state.results
     };
 };
 
 // const wrapper = connect(mapStateToProps);
 // const component = wrapper(Results);
 
-export default connect(mapStateToProps)(Results) ;
+export default withRouter(
+    connect(mapStateToProps)(Results) 
+);
 
 // How implement react-redux in component's react
  
